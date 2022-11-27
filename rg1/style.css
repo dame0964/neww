@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #05073a,#383838);
+    padding: 10px;
+}
+.container{
+    max-width: 700px;
+    width: 100vh;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #171c99,#360a0a);
+}
+.container .heading{
+    text-decoration: underline beige;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 20px 0 0;
+
+}
+.container form .card-datials{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+form .card-datials .card-box{
+width: calc(100% / 2 - 20px);
+margin-bottom: 30px;
+}
+.card-datials .card-box .details{
+    display: block;
+    font-weight: 500; 
+    margin-bottom: 5px;  
+}
+.card-datials .card-box input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+    padding-left: 20px;
+}
+form .circle-form .catagory{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .button{
+    text-align: center;
+}
+form .button input {
+    padding: 10px;
+    border-radius: 5px;
+    color: #171c99;
+    cursor:pointer;
+}
+form .second{
+    text-align: center;
+}
+form .second input{
+    margin-top: 15px;
+    color: #171c99;
+    cursor: pointer;
+    padding: 10px;
+}
